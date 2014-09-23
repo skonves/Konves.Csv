@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>KonvesCsv</id>
+    <title>Konves.Csv</title>
+    <version>$version$</version>
+    <authors>$author$</authors>
+    <owners>skonves</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/skonves/Konves.Csv</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2014 $author$</copyright>
+    <tags>CSV stream reader RFC 4180</tags>
+  </metadata>
+  <files>
+    <file src="$project$bin\$configuration$\net45\*.pdb" target="lib\net45" />
+    <file src="$project$bin\$configuration$\net40\*.dll" target="lib\net40" />
+    <file src="$project$bin\$configuration$\net40\*.xml" target="lib\net40" />
+    <file src="$project$bin\$configuration$\net40\*.pdb" target="lib\net40" />
+    <file src="$project$bin\$configuration$\net35\*.dll" target="lib\net35" />
+    <file src="$project$bin\$configuration$\net35\*.xml" target="lib\net35" />
+    <file src="$project$bin\$configuration$\net35\*.pdb" target="lib\net35" />
+    <file src="$project$bin\$configuration$\net40-client\*.dll" target="lib\net40-client" />
+    <file src="$project$bin\$configuration$\net40-client\*.xml" target="lib\net40-client" />
+    <file src="$project$bin\$configuration$\net40-client\*.pdb" target="lib\net40-client" />
+    <file src="$project$bin\$configuration$\net35-client\*.dll" target="lib\net35-client" />
+    <file src="$project$bin\$configuration$\net35-client\*.xml" target="lib\net35-client" />
+    <file src="$project$bin\$configuration$\net35-client\*.pdb" target="lib\net35-client" />
+  </files>
+</package>

@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konves.Csv.Tests", "Konves.Csv.Tests\Konves.Csv.Tests.csproj", "{FD7D00E7-4D85-4EE3-9C6A-58B3A176F15E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konves.Csv_net45", "Konves.Csv\Konves.Csv_net45.csproj", "{6397BC6A-863D-473B-8094-DBA8B9141A16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Alternate Frameworks", "Alternate Frameworks", "{F3FE9806-CF1D-4677-BDF3-8FEAC6B39BDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konves.Csv_net40", "Konves.Csv\Konves.Csv_net40.csproj", "{F3868055-9D13-4851-8F02-A035FF4E9C75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konves.Csv_net40-client", "Konves.Csv\Konves.Csv_net40-client.csproj", "{35994F8F-236C-4282-BFA0-EC77BD05F9DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konves.Csv_net35", "Konves.Csv\Konves.Csv_net35.csproj", "{713B8A7D-F803-4A55-BCAC-C1699B4DCC6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konves.Csv_net35-client", "Konves.Csv\Konves.Csv_net35-client.csproj", "{A0CD9768-8BA4-49A4-BBCF-750E65F6754A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD7D00E7-4D85-4EE3-9C6A-58B3A176F15E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7D00E7-4D85-4EE3-9C6A-58B3A176F15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7D00E7-4D85-4EE3-9C6A-58B3A176F15E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7D00E7-4D85-4EE3-9C6A-58B3A176F15E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6397BC6A-863D-473B-8094-DBA8B9141A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6397BC6A-863D-473B-8094-DBA8B9141A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6397BC6A-863D-473B-8094-DBA8B9141A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6397BC6A-863D-473B-8094-DBA8B9141A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3868055-9D13-4851-8F02-A035FF4E9C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3868055-9D13-4851-8F02-A035FF4E9C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3868055-9D13-4851-8F02-A035FF4E9C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35994F8F-236C-4282-BFA0-EC77BD05F9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35994F8F-236C-4282-BFA0-EC77BD05F9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35994F8F-236C-4282-BFA0-EC77BD05F9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713B8A7D-F803-4A55-BCAC-C1699B4DCC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713B8A7D-F803-4A55-BCAC-C1699B4DCC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713B8A7D-F803-4A55-BCAC-C1699B4DCC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0CD9768-8BA4-49A4-BBCF-750E65F6754A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CD9768-8BA4-49A4-BBCF-750E65F6754A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CD9768-8BA4-49A4-BBCF-750E65F6754A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3868055-9D13-4851-8F02-A035FF4E9C75} = {F3FE9806-CF1D-4677-BDF3-8FEAC6B39BDF}
+		{35994F8F-236C-4282-BFA0-EC77BD05F9DD} = {F3FE9806-CF1D-4677-BDF3-8FEAC6B39BDF}
+		{713B8A7D-F803-4A55-BCAC-C1699B4DCC6B} = {F3FE9806-CF1D-4677-BDF3-8FEAC6B39BDF}
+		{A0CD9768-8BA4-49A4-BBCF-750E65F6754A} = {F3FE9806-CF1D-4677-BDF3-8FEAC6B39BDF}
+	EndGlobalSection
+EndGlobal
